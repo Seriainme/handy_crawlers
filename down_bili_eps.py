@@ -94,7 +94,7 @@ def getVideoInfo(SESSDATA,bvid):
     return videoInfo
 def gui(SESSDATA):
     mainGui = tkinter.Tk()
-    mainGui.title('大黄出品，必属精品=。=')
+    mainGui.title('=。=')
     mainGui.geometry('300x500')
     def logoff():
         os.remove('login.data')
